@@ -69,7 +69,7 @@
 	</div>
 	
 <p>
-    <input  type="text" name="angka" placeholder="Masukan Angka" onkeypress="return hanyaAngka(event)">
+    <input  type="text" name="angka" placeholder="Masukan Angka" onkeypress="return event.charCode >= 48 && event.charCode <=57">
     <button>Send</button>
 </p>
 
